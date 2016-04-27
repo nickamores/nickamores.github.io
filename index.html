@@ -4,6 +4,30 @@
 	<head>
 		<title>A Bike Rider's guide to LA</title>
 		<style type="text/css">
+		ul {
+    			list-style-type: none;
+    			margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #187;
+}
 			html {
 				background:url("images/dtla.jpg") no-repeat center center fixed;
 				 -webkit-background-size: cover;
@@ -50,7 +74,12 @@
 		</style>
 	</head>
 	<body>
-		<h1>Bike Rider's guide to LA</h1>
+		<ul>
+ 			<li><a class="active" href="index.html">Home</a></li>
+  			<li><a href="coffee.html">fuel</a></li>
+  			<li><a href="food.html">food</a></li>
+  			<li><a href="about.html">about</a></li>
+		</ul>
 		<p class="eleven">From the slums of Shaolin</p>
 		<p class="ten">Wu-Tang Clan strikes again</p>
 		<p class="nine">The RZA</p>
