@@ -24,6 +24,8 @@ li a:hover {
     background-color: #187;
 			}
 			body {
+				background-image: url("images/dtla.jpg");
+   				background-repeat: no-repeat;
 				color: white;
 				padding: 40px;
 				font-family: Arial, Verdana, sans-serif;
