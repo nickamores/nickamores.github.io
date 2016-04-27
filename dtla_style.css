@@ -1,0 +1,72 @@
+	<style type="text/css">
+		ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+			html {
+				background:url("images/dtla.jpg") no-repeat center center fixed;
+				 -webkit-background-size: cover;
+				 -moz-background-size: cover;
+				 -o-background-size: cover;
+				 background-size: cover;
+			}
+			body {
+				color: white;
+				padding: 40px;
+				font-family: Arial, Verdana, sans-serif;
+				text-align:center}
+			h1 {
+				background-color: white; opacity: 0.4;
+				background-color: black);
+				color: #000000;
+				padding: inherit;}
+			p {
+				padding: 15px;
+				margin: 0px;
+				opacity: 0.75;}
+			p.one {
+				background-color: rgb(69,69,69);}
+			p.two {
+				background-color: rgb(0,0,0);}
+			p.three {
+				background-color: rgb(186,228,255);}
+			p.four {
+				background-color: rgb(167,219,252);}
+			p.five {
+				background-color: rgb(140,202,242);}
+			p.six {
+				background-color: rgb(114,193,240);}
+			p.seven {
+				background-color: rgb(84,182,237);}
+			p.eight {
+				background-color: rgb(48,170,233);}
+			p.nine {
+				background-color: rgb(0,160,230);}
+			p.ten {
+				background-color: rgb(0,149,226);}
+			p.eleven {
+				background-color: rgb(0,136,221);}
+		</style>
