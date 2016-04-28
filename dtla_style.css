@@ -1,15 +1,16 @@
 			body {
-				background-image: url("images/dtla.jpg");
-   				background-repeat: no-repeat;
-				-webkit-background-size: cover;
-				 -moz-background-size: cover;
-				 -o-background-size: cover;
-				 background-size: cover;
-				
-				color: white;
-				padding: 40px;
-				font-family: Arial, Verdana, sans-serif;
-				text-align:center}
+	background-image: url("images/dtla.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #000;
+	padding: 40px;
+	font-family: Arial, Verdana, sans-serif;
+	font-size:12px;
+	text-align:center
+}
 			h1 {
 				background-color: white; opacity: 0.4;
 				background-color: black);
@@ -41,7 +42,8 @@
 			p.ten {
 				background-color: rgb(0,149,226);}
 			p.eleven {
-				background-color: rgb(0,136,221);}
+				background-color: #FFF;
+				opacity: 0.8;}
 				
 					ul {
     list-style-type: none;
