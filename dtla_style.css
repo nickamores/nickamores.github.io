@@ -25,26 +25,10 @@
 				border: 5px solid #CCC;
 				opacity: 0.5;}
 			p.two {
-				background-color: rgb(0,0,0);}
-			p.three {
-				background-color: rgb(186,228,255);}
-			p.four {
-				background-color: rgb(167,219,252);}
-			p.five {
-				background-color: rgb(140,202,242);}
-			p.six {
-				background-color: rgb(114,193,240);}
-			p.seven {
-				background-color: rgb(84,182,237);}
-			p.eight {
-				background-color: rgb(48,170,233);}
-			p.nine {
-				background-color: rgb(0,160,230);}
-			p.ten {
 				background-color: white; opacity: 0.4;
 				color: #000000;
 				padding: inherit;}
-			p.eleven {
+			p.three {
 				background-color: #FFF;
 				opacity: 0.8;
 				width: 275px;
