@@ -47,6 +47,8 @@
 			p.eleven {
 				background-color: #FFF;
 				opacity: 0.8;
+				width: 275px;
+				border: 2px solid #CCC;
 				padding: 10px;
 				text-align:left}
 				
