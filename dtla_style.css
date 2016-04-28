@@ -21,9 +21,10 @@
 				margin: 0px;
 				opacity: 0.75;}
 			p.one {
-				color:#FFF;
-				border: 5px solid #CCC;
-				opacity: 0.5;}
+	color:#CF9;
+	border: 5px solid #CCC;
+	opacity: 0.5;
+}
 			p.two {
 				background-color: white; opacity: 0.4;
 				color: #000000;
