@@ -4,20 +4,18 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
-      <div class="dropdown">
-  <button class="dropbtn">photos</button>
-  <div class="dropdown-content">
-    <a href="digital.html">digital</a>
-    <a href="film.html">film</a>
-    <a href="#">Link 3</a>
-  </div>
-    <ul>
-  <li><a  href="#photos">photos</a></li>
-  <li><a href="">News</a></li>
-  <li><a href="contact.html">Contact</a></li>
-  <li><a href="about.html">About</a></li>
-  </ul>
-
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Dropdown</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
 
 	</body>
 </html>
