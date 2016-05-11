@@ -1,5 +1,11 @@
+	header {
+    	background-color:black;
+    	color:white;
+    	text-align:center;
+   		padding:5px;	
+	}
 	body {
-			background-image: url("images/.jpg");
+			background-image: url("images/dtla.jpg");
 			background-repeat: no-repeat;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
@@ -11,13 +17,7 @@
 			font-size:12px;
 			text-align:center
 		}
-	nav {
-		
-	h1 {
-			background-color: white; opacity: 0.4;
-			background-color: black);
-			color: #000000;
-			padding: inherit;}
+	
 	p {
 			padding: 15px;
 			margin: 0px;
