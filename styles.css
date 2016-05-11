@@ -1,5 +1,5 @@
 	body {
-			background-image: url("images/dtla.jpg");
+			background-image: url("images/.jpg");
 			background-repeat: no-repeat;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
@@ -11,6 +11,8 @@
 			font-size:12px;
 			text-align:center
 		}
+	nav {
+		
 	h1 {
 			background-color: white; opacity: 0.4;
 			background-color: black);
