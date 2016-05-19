@@ -17,7 +17,6 @@ body {		background-color: #000;
 }
 
 .nav li {
-  font-family: 'Oswald', sans-serif;
   font-size: 1.2em;
   line-height: 40px;
   text-align: left;
@@ -85,10 +84,10 @@ body {		background-color: #000;
   }
 
   .nav li:hover ul {
-    display: block;
+    display: inline-block;
   }
 
   .nav li ul li {
-    display: block;
+    display: inline-block;
   }
 }
