@@ -30,7 +30,7 @@ body {		background-color: #000;
 }
 
 .nav a:hover {
-  background-color: #005f5f;
+	background-color: #666;
 }
 
 .nav a.active {
