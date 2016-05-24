@@ -18,6 +18,16 @@ body {
 	letter-spacing: 0.12em;
 	line-height: 1.4em;
 	}
+#section2
+	{
+	color: #FFF;
+	padding-left: 150px;
+	margin-right: 400px;
+	padding-top: 50px;
+	font-size:12px;
+	letter-spacing: 0.12em;
+	line-height: 1.4em;
+	}
 #photo
 	{float:right;
 	margin-top: 50px;
