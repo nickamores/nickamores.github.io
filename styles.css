@@ -11,7 +11,7 @@ body {
 #section
 	{
 	color: #FFF;
-	padding-left: 100px;
+	padding-left: 75px;
 	margin-right: 500px;
 	padding-top: 50px;
 	font-size:12px;
@@ -43,6 +43,8 @@ body {
 	padding: 20px;
 	color:#000;
 	text-decoration: none;
+	letter-spacing: 0.1em;
+	font-size:12px;
 }
 #blog {
 	color: #FFF;
