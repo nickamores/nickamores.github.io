@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Nick Amores Photography</title>
+<title>Nick Amores Photography-Film</title>
 <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
@@ -21,6 +21,39 @@
 	</ul>
     </div>
 	</div>
+ <div class="digital_gallery" style="max-width:1000px;">   
+ <img class="mySlides" src="images/fg_1.jpg" style="width:100%">
+<img class="mySlides" src="images/fg_2.jpg" style="width:100%">
+<img class="mySlides" src="images/fg_3.jpg" style="width:100%">
+<img class="mySlides" src="images/fg_4.jpg" style="width:100%">
+<img class="mySlides" src="images/fg_5.jpg" style="width:100%">
+<img class="mySlides" src="images/fg_6.jpg" style="width:100%">
+<img class="mySlides" src="images/fg_7.jpg" style="width:100%">
+
+<a class="btn_floating" style="position:absolute;top:45%;left: 20px;" onClick="plusDivs(-1)">-</a>
+<a class="btn_floating" style="position:absolute;top:45%;right: 20px;" onClick="plusDivs(1)">+</a>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
 </body>
 </html>
