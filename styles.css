@@ -1,13 +1,140 @@
-@charset "UTF-8";
-/* CSS Document */
-
 body {
-	background-color: #000;
-	color: white;
-	font-family: Arial, Verdana, sans-serif;
+	background-color: white;
+	color: black;
+	padding: 0;
 	margin: 0;
-	overflow:-y:scroll;
+		overflow:-y:scroll;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:16px;
-	padding-top: 100px;
 	}
+h3{
+	font-size: 24px;
+}
+h1{
+	font-size: 35px;
+	color:#070;
+}
+#section
+	{
+	color: #FFF;
+	padding-left: 75px;
+	margin-right: 500px;
+	padding-top: 50px;
+	font-size:12px;
+	letter-spacing: 0.12em;
+	line-height: 1.4em;
+	}
+#section2
+	{
+	color: #09F;
+	padding-left: 150px;
+	margin-right: 400px;
+	padding-top: 50px;
+	font-size:12px;
+	letter-spacing: 0.12em;
+	line-height: 1.4em;
+	}
+#btn_floating
+{
+	cursor:not-allowed;
+	opacity=0.3;
+}
+.news {
+    float: left;
+    width: 420px;
+    max-height: 420px;
+    margin: 15px;
+    background-color:#CCC;
+	text-align:center;
+	padding: 15px;
+	color:#000;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	font-size:12px;
+}
+#blog {
+	color: #FFF;
+	padding-left: 150px;
+	margin-right: 400px;
+	padding-top: 50px;
+	font-size:12px;
+	letter-spacing: 0.12em;
+	line-height: 1.4em;
+}
+#photo
+	{float:right;
+	margin-top: 50px;
+	}
+#nav{
+	background-color: #FFF;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	}
+#nav_wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	text-align:left;
+	
+}
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	
+	
+}
+#nav ul li{
+	display: inline-block;
+}
+#nav ul li:hover{
+	background-color: #FFF;
+}
+#nav ul li a,visited{
+	color:#000;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	color: #F03;
+	text-decoration: none;
+}
+#nav ul li:hover ul{
+	display:block;
+}
+#nav ul ul{
+	display: none;
+	position: absolute;
+	background-color:#FFF;	
+}
+#nav ul ul li{
+	display:block;
+}
+#nav ul ul li a,visited{
+	color: #ccc;
+}
+#nav ul ul li a:hover{
+	color:#0F0;
+}
+#footer{
+	background-color:#303030;
+	color:#F2F2F2;
+	font-size: 9px;
+	width:100%;
+	height: 30px;
+	bottom: 0px;
+	position: fixed;
+	left: 0px;
+	padding-left: 20px;	
+	text-decoration:none;
+	margin-top: 20px;
+}
+#footer a,visited{
+	color: #F2F2F2;
+	text-decoration:none;
+}
+#home{
+	margin: 50px;
+	padding-bottom: 100px;
+}
