@@ -23,3 +23,7 @@ footer {
 	font-size:11px;
 	letter-spacing: .05em;
 }
+.footer,
+.push {
+  height: 50px;
+}
