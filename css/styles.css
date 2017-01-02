@@ -11,4 +11,8 @@ a:link, a:visited {
 	text-decoration:none;
 	color:inherit;
 	}
+p {
 
+p {
+    padding: 50px 30px 50px 80px;
+}
