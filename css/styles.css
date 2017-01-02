@@ -12,19 +12,3 @@ a:link, a:visited {
 	color:inherit;
 	}
 
-footer {
-	position:fixed;
-	padding-left:15px;
-	padding-top:9px;
-	bottom:0px;
-	width:100%;
-	height:20px;
-	background:#000;
-	font-size:11px;
-	letter-spacing: .05em;
-	color: white;
-}
-.footer,
-.push {
-  height: 20px;
-}
