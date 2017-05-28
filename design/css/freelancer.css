@@ -8,10 +8,10 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 20px;
+  font-size: 16px;
 }
 p.small {
-  font-size: 16px;
+  font-size: 14px;
 }
 a,
 a:hover,
@@ -28,7 +28,7 @@ h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 650;
 }
 hr.star-light,
 hr.star-primary {
@@ -83,7 +83,7 @@ header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 650;
   font-size: 2em;
 }
 header .intro-text .skills {
@@ -106,7 +106,7 @@ header .intro-text .skills {
   background: #d1d1d1;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 650;
   border: none;
 }
 .navbar-custom .navbar-brand {
@@ -326,7 +326,7 @@ footer .footer-below {
   color: white;
   background-color: #d1d1d1;
   border-color: #d1d1d1;
-  font-weight: 700;
+  font-weight: 650;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -368,7 +368,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #E3E935;
   border-color: #E3E935;
-  font-weight: 700;
+  font-weight: 650;
 }
 .btn-success:hover,
 .btn-success:focus,
